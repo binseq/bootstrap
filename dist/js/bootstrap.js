@@ -2769,7 +2769,7 @@
         event.preventDefault();
       }
 
-      if (!this._isShown || this._isTransitioning) {
+      if (!this._isShown) {
         return;
       }
 
